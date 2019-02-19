@@ -1,0 +1,35 @@
+'formGroupFields': 
+  'dialog': 'form:formGroupFields'
+  'modelClass': 'info.magnolia.module.form.templates.components.FormFieldModel'
+  'renderType': 'freemarker'
+  'templateScript': '/form/components/formGroupFields.ftl'
+  'areas': 
+    'fields': 
+      'enabled': true
+      'templateScript': '/form/generic/listArea.ftl'
+      'type': 'list'
+      'availableComponents': 
+        'formEdit': 
+          'id': 'form:components/formEdit'
+        'formCaptcha': 
+          'id': 'light-module:components/form/googleCaptchaField' # Register CAPTCHA to FORM
+        'formPassword': 
+          'id': 'form:components/formPassword'
+        'formHidden': 
+          'id': 'form:components/formHidden'
+        'formGroupEdit': 
+          'id': 'form:components/formGroupEdit'
+        'formSelection': 
+          'id': 'form:components/formSelection'
+        'formFile': 
+          'id': 'form:components/formFile'
+        'formSubmit': 
+          'id': 'form:components/formSubmit'
+        'formSummary': 
+          'id': 'form:components/formSummary'
+        'formHoneypot': 
+          'id': 'form:components/formHoneypot'
+        'formNumber': 
+          'id': 'form:components/formNumber'
+
+

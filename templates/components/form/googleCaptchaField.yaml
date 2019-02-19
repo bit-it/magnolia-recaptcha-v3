@@ -1,0 +1,7 @@
+templateScript: /light-module/templates/components/form/googleCaptchaField.ftl
+dialog: light-module:components/form/googleCaptchaField
+modelClass: info.magnolia.module.form.templates.components.FormFieldModel
+
+renderType: freemarker
+title: googleCaptchaField
+description: googleCaptchaField

@@ -1,0 +1,39 @@
+form:
+  tabs:
+    tabMain:
+      label: Google Captcha
+      fields:
+        title:
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          i18n: true
+          label: Titel
+          required: true
+          rows: 1
+          type: String
+        controlName:
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Name
+          required: true
+          rows: 1
+          type: String
+          defaultValue: "recaptcha-v3"
+          readOnly: true
+        captchaSiteKey:
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Captcha Site Key
+          required: true
+          rows: 1
+          type: String
+        mandatory:
+          buttonLabel: ""
+          class: info.magnolia.ui.form.field.definition.CheckboxFieldDefinition
+          defaultValue: false
+          label: Pflichtfeld
+          type: Boolean
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+    label: Speichern
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
+    label: Abbrechen

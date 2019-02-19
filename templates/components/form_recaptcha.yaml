@@ -1,0 +1,25 @@
+i18nBasename: info.magnolia.module.form.messages
+dialog: form:form
+description: paragraph.form.description
+modelClass: info.magnolia.module.form.templates.components.FormModel
+renderType: freemarker
+title: Form with Recaptcha v3
+templateScript: /form/components/form.ftl
+class: info.magnolia.module.form.templates.components.FormParagraph
+formProcessors:
+  - name: addRecaptcha
+    enabled: true
+    class: info.magnolia.module.jsmodels.form.JavascriptFormProcessor
+    formProcessorScriptPath: /light-module/templates/js/formProcessors/addRecaptcha.js
+parameters:
+  formEnctype: multipart/form-data
+areas:
+  fieldsets:
+    description: areas.components.form.fieldsets.description
+    type: list
+    title: areas.components.form.fieldsets.title
+    enabled: true
+    templateScript: /form/generic/listArea.ftl
+    availableComponents:
+      formGroupFields:
+        id: form:components/formGroupFields
