@@ -7,10 +7,18 @@ title: Form with Recaptcha v3
 templateScript: /form/components/form.ftl
 class: info.magnolia.module.form.templates.components.FormParagraph
 formProcessors:
-  - name: addRecaptcha
-    enabled: true
-    class: info.magnolia.module.jsmodels.form.JavascriptFormProcessor
-    formProcessorScriptPath: /light-module/templates/js/formProcessors/addRecaptcha.js
+- name: addRecaptcha
+  enabled: true
+  class: info.magnolia.module.jsmodels.form.JavascriptFormProcessor
+  formProcessorScriptPath: /light-module/templates/js/formProcessors/addRecaptcha.js
+- name: sendContactEMail
+  enabled: true
+  class: info.magnolia.module.form.processors.SendContactEMailProcessor
+- name: sendConfirmationEMail
+  class: info.magnolia.module.form.processors.SendConfirmationEMailProcessor
+- name: trackEMail
+  class: info.magnolia.module.form.processors.TrackEmailProcessor
+  loggerName: log-form
 parameters:
   formEnctype: multipart/form-data
 areas:
