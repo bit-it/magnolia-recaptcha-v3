@@ -1,11 +1,36 @@
-# magnolia-recaptcha-v3
-#### Magnolia with Recaptcha v3 based on javascript models.
+# Magnolia Javascript Models - reCAPTCHA Version 3
 
-Use this if you need Recaptcha v3 for Magnolia it's easy to use cause of javascript models. No deployment needed only insert them in to your light-module and modify the file paths and follow the instructions.
+This is a repository with a form processor and it's reCAPTCHA logic for Magnolia.
 
+## Getting Started
 
-##### Instructions:
 1. Add the files in the right directories of your light module.
 2. Go to /templates/js/formProcessors/addRecaptcha.js change there "ADD YOUR RECAPTCHA V3 KEY HERE" to your secret key.
 3. Extend the "formGroupFields" of the form configuration and add the google recaptcha field.
 4. Add the public key to the recaptcha component
+
+### Prerequisites
+
+```
+Running Magnolia CMS
+Added Javascript Models Module
+```
+
+## Built With
+
+* [Magnolia 6.0](https://www.magnolia-cms.com/) - The Content Management System
+* [Javascript Models Module](https://documentation.magnolia-cms.com/display/DOCS60/JavaScript+Models+module) - Module Extension
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Authors
+
+* **Patrick Diede** - *Initial work* - [BIT IT](https://github.com/bit-it)
+
+See also the list of [contributors](https://github.com/bit-it) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
