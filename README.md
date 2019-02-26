@@ -21,10 +21,6 @@ Added Javascript Models Module
 * [Magnolia 6.0](https://www.magnolia-cms.com/) - The Content Management System
 * [Javascript Models Module](https://documentation.magnolia-cms.com/display/DOCS60/JavaScript+Models+module) - Module Extension
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
 ## Authors
 
 * **Patrick Diede** - *Initial work* - [BIT IT](https://github.com/bit-it)
